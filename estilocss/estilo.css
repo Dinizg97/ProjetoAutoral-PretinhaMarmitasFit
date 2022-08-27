@@ -3,7 +3,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-body #topo{
+body #topo, #saudavel{
     display: flex;
     justify-content: space-around;
   margin: auto;
@@ -62,8 +62,44 @@ padding: 5px;
     text-shadow: 0.8px 0.8px black;
 }
 #conteudo{
-   background: url(../Imagens/background-body.jpg) rgba(255, 0, 0, 0.192); 
+   background: url(../Imagens/background-body2.jpg) rgba(255, 0, 0, 0.192); 
    width: 100%;
    height: 1000px;
    clear: both;
+   display: flex;
+   justify-content: center;
+}
+#soleira{
+    position: relative;
+    bottom: 110px;
+}
+#conteudo-principal{
+ width: 990px;   
+ border: 1px solid red;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ height: 1000px;
+ 
+}
+#saudavel h2{
+    background: rgba(40,40,40,255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin-top: 35px;
+    width: 990px;
+    border: solid 0px red;
+}
+.paodequeijo{
+width: 450px;
+border: solid 1px rgb(68, 0, 255);
+margin-right: 15px;
+}
+.Brownie{
+width: 450px;
+border: solid 1px rgb(0, 255, 42);
+margin-left: 15px;
+}
+img .titulo1{
+    border-radius: 5px;
 }
