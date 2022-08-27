@@ -62,7 +62,7 @@ padding: 5px;
     text-shadow: 0.8px 0.8px black;
 }
 #conteudo{
-   background: url(../Imagens/background-body.jpg); 
+   background: url(../Imagens/background-body.jpg) rgba(255, 0, 0, 0.192); 
    width: 100%;
    height: 1000px;
    clear: both;
